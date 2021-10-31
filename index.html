@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <title>Document</title>
+    <style>
+        [class*="col"] {
+           padding: 1rem;
+           background-color: #33b5e5;
+           border: 2px solid #fff;
+           color: #fff;
+       }
+      
+       </style>
+</head>
+<body>
+    <h2 class="my-5 text-center">Example 1</h2>
+    <div class="container-lg">
+        <!-- container : Will add a margin to it-->
+        <!-- container-fluid : 100% width-->
+        <!-- container-md : Upto 768px medium devices 100% width-->
+        <div class="row">
+            <div class="col-sm">1</div>
+            <div class="col-sm">2</div>
+            <div class="col-sm">3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm">4</div>
+            <div class="col-sm">5</div>
+        </div>
+    </div>
+
+    <h2 class="my-5 text-center">Example 2</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">1</div>
+            <div class="col-md-4">2</div>
+        </div>
+        <!-- Below will not add a breakpoint-->
+        <div class="row">
+            <div class="col-8">1</div>
+            <div class="col-4">2</div>
+        </div>
+    </div>
+    <hr class="my-5">
+
+    <h2 class="my-5  text-center"> Example 3</h2>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12</div>
+             </div>
+    </div>
+    <h2 class="my-5  text-center"> Gutters</h2>
+    <div class="container">
+        <div class="row gx-5 gy-5"> <!-- Upto 5 allowed. Gutter Left Spacing is x and bottom spacing is y-->
+            <div class="col-6">Without Gutter A</div>
+            <div class="col-6">Withou Gutter B</div>
+            <div class="col-6">Withou Gutter C</div>
+            <div class="col-6">Withou Gutter D</div>
+        </div>
+        <div class="row g-5"> <!-- Shorthand notation-->
+            <div class="col-6">Without Gutter E</div>
+            <div class="col-6">Withou Gutter F</div>
+            <div class="col-6">Withou Gutter G</div>
+            <div class="col-6">Withou Gutter H</div>
+        </div>
+    </div>
+    <div class="container">
+        <h1> Buttons</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary btn-lg">Secondary</button>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
